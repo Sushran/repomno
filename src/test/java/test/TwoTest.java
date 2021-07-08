@@ -12,6 +12,7 @@ public class TwoTest extends Base {
 	public WebDriver driver;
 @Test
 	public void testtwo() throws IOException, InterruptedException {
+		System.out.println("rani has updated this code");
 		System.out.println("testtwo");
 		 driver = intializeDriver();
 		driver.get("http://tutorialsninja.com/demo/");
